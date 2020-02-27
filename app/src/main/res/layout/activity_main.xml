@@ -37,6 +37,7 @@
                     android:text="Difficulty Level:" />
 
             <Spinner
+                android:id="@+id/spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -45,7 +46,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Start!" />
+            android:text="Start!"
+            android:onClick="startQuiz" />
+
 
         <TextView
             android:layout_width="match_parent"
